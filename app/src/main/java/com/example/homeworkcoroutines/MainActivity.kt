@@ -13,9 +13,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        thread {
-            Thread.sleep(300)
-        }
+//        thread {
+//            Thread.sleep(300)
+//        }
 
         val listFragment = supportFragmentManager.findFragmentById(R.id.fragment_in_main_activity) as ListFragment
 
