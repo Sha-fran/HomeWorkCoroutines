@@ -7,7 +7,7 @@ import com.bumptech.glide.Glide
 import com.example.homeworkcoroutines.databinding.ItemsBinding
 
 class SuperheroRecyclerViewAdapter(
-    var items: MutableList<DataClasses.Superheroes> = mutableListOf(),
+    var items: List<DataClasses.Superheroes> = mutableListOf(),
     var onItemClickListener: OnItemClickListener
 ) : RecyclerView.Adapter<SuperheroRecyclerViewAdapter.SuperheroRecyclerViewHolder>() {
 
